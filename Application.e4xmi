@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_LnnykMuxEeKezbF-WZDe_g" elementId="org.eclipse.e4.ide.application">
+  <tags>shellMaximized</tags>
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_LnnykcuxEeKezbF-WZDe_g" label="com.automative.computer.solutions.shopprobe" width="500" height="400">
+    <tags>shellMaximized</tags>
+    <children xsi:type="advanced:PerspectiveStack" xmi:id="_LnoZpsuxEeKezbF-WZDe_g">
+      <children xsi:type="advanced:Perspective" xmi:id="_LnoZp8uxEeKezbF-WZDe_g">
+        <children xsi:type="basic:PartSashContainer" xmi:id="_heWOQMuxEeKezbF-WZDe_g" elementId="com.automative.computer.solutions.shopprobe.partsashcontainer.0" horizontal="true">
+          <children xsi:type="basic:PartSashContainer" xmi:id="_irG8UMuxEeKezbF-WZDe_g" containerData="75">
+            <children xsi:type="basic:PartStack" xmi:id="_irG8UcuxEeKezbF-WZDe_g" containerData="80">
+              <children xsi:type="basic:Part" xmi:id="_irG8UsuxEeKezbF-WZDe_g" contributionURI="bundleclass://com.automative.computer.solutions.shopprobe/com.automative.computer.solutions.shopprobe.parts.JobsViewPart" label="Sample Part"/>
+            </children>
+            <children xsi:type="basic:PartStack" xmi:id="_irG8U8uxEeKezbF-WZDe_g" elementId="com.automative.computer.solutions.shopprobe.partstack.0" containerData="20">
+              <children xsi:type="basic:Part" xmi:id="_irG8VMuxEeKezbF-WZDe_g" elementId="com.automative.computer.solutions.shopprobe.part.0"/>
+            </children>
+          </children>
+          <children xsi:type="basic:PartSashContainer" xmi:id="_i1p_cMuxEeKezbF-WZDe_g" containerData="25">
+            <children xsi:type="basic:PartStack" xmi:id="_i1p_ccuxEeKezbF-WZDe_g" containerData="">
+              <children xsi:type="basic:Part" xmi:id="_065GgMuxEeKezbF-WZDe_g" elementId="com.automative.computer.solutions.shopprobe.part.1"/>
+            </children>
+            <children xsi:type="basic:PartStack" xmi:id="_i1p_c8uxEeKezbF-WZDe_g" elementId="com.automative.computer.solutions.shopprobe.partstack.0">
+              <children xsi:type="basic:Part" xmi:id="_i1p_dMuxEeKezbF-WZDe_g" elementId="com.automative.computer.solutions.shopprobe.part.0"/>
+            </children>
+          </children>
+        </children>
+      </children>
+    </children>
+    <mainMenu xmi:id="_LnnyqcuxEeKezbF-WZDe_g" elementId="menu:org.eclipse.ui.main.menu">
+      <children xsi:type="menu:Menu" xmi:id="_LnoZoMuxEeKezbF-WZDe_g" label="File">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_LnoZocuxEeKezbF-WZDe_g" label="Open" iconURI="platform:/plugin/com.automative.computer.solutions.shopprobe/icons/sample.gif" command="_LnnyoMuxEeKezbF-WZDe_g"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_LnoZosuxEeKezbF-WZDe_g" label="Save" iconURI="platform:/plugin/com.automative.computer.solutions.shopprobe/icons/save_edit.gif" command="_Lnnyo8uxEeKezbF-WZDe_g"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_LnoZo8uxEeKezbF-WZDe_g" label="Quit" command="_LnnynMuxEeKezbF-WZDe_g"/>
+      </children>
+      <children xsi:type="menu:Menu" xmi:id="_LnoZpMuxEeKezbF-WZDe_g" label="Help">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_LnoZpcuxEeKezbF-WZDe_g" label="About" command="_LnnypsuxEeKezbF-WZDe_g"/>
+      </children>
+    </mainMenu>
+    <trimBars xmi:id="_LnoZq8uxEeKezbF-WZDe_g">
+      <children xsi:type="menu:ToolBar" xmi:id="_LnoZrMuxEeKezbF-WZDe_g" elementId="toolbar:org.eclipse.ui.main.toolbar">
+        <children xsi:type="menu:HandledToolItem" xmi:id="_LnoZrcuxEeKezbF-WZDe_g" iconURI="platform:/plugin/com.automative.computer.solutions.shopprobe/icons/sample.gif" command="_LnnyoMuxEeKezbF-WZDe_g"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_LnoZrsuxEeKezbF-WZDe_g" iconURI="platform:/plugin/com.automative.computer.solutions.shopprobe/icons/save_edit.gif" command="_Lnnyo8uxEeKezbF-WZDe_g"/>
+      </children>
+    </trimBars>
+  </children>
+  <handlers xmi:id="_LnnyncuxEeKezbF-WZDe_g" elementId="com.automative.computer.solutions.shopprobe.handler.quitCommand" contributionURI="bundleclass://com.automative.computer.solutions.shopprobe/com.automative.computer.solutions.shopprobe.handlers.QuitHandler" command="_LnnynMuxEeKezbF-WZDe_g"/>
+  <handlers xmi:id="_LnnyocuxEeKezbF-WZDe_g" elementId="com.automative.computer.solutions.shopprobe.handler.openCommand" contributionURI="bundleclass://com.automative.computer.solutions.shopprobe/com.automative.computer.solutions.shopprobe.handlers.OpenHandler" command="_LnnyoMuxEeKezbF-WZDe_g"/>
+  <handlers xmi:id="_LnnypMuxEeKezbF-WZDe_g" elementId="com.automative.computer.solutions.shopprobe.handler.saveCommand" contributionURI="bundleclass://com.automative.computer.solutions.shopprobe/com.automative.computer.solutions.shopprobe.handlers.SaveHandler" command="_Lnnyo8uxEeKezbF-WZDe_g"/>
+  <handlers xmi:id="_Lnnyp8uxEeKezbF-WZDe_g" elementId="com.automative.computer.solutions.shopprobe.handler.aboutCommand" contributionURI="bundleclass://com.automative.computer.solutions.shopprobe/com.automative.computer.solutions.shopprobe.handlers.AboutHandler" command="_LnnypsuxEeKezbF-WZDe_g"/>
+  <bindingTables xmi:id="_LnnynsuxEeKezbF-WZDe_g" bindingContext="_LnnymcuxEeKezbF-WZDe_g">
+    <bindings xmi:id="_Lnnyn8uxEeKezbF-WZDe_g" keySequence="M1+Q" command="_LnnynMuxEeKezbF-WZDe_g"/>
+    <bindings xmi:id="_LnnyosuxEeKezbF-WZDe_g" keySequence="M1+O" command="_LnnyoMuxEeKezbF-WZDe_g"/>
+    <bindings xmi:id="_LnnypcuxEeKezbF-WZDe_g" keySequence="M1+S" command="_Lnnyo8uxEeKezbF-WZDe_g"/>
+    <bindings xmi:id="_LnnyqMuxEeKezbF-WZDe_g" keySequence="M1+A" command="_LnnypsuxEeKezbF-WZDe_g"/>
+  </bindingTables>
+  <rootContext xmi:id="_LnnymcuxEeKezbF-WZDe_g" elementId="org.eclipse.ui.contexts.dialogAndWindow" name="In Dialog and Windows">
+    <children xmi:id="_LnnymsuxEeKezbF-WZDe_g" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>
+    <children xmi:id="_Lnnym8uxEeKezbF-WZDe_g" elementId="org.eclipse.ui.contexts.dialog" name="In Dialogs"/>
+  </rootContext>
+  <commands xmi:id="_LnnynMuxEeKezbF-WZDe_g" elementId="org.eclipse.ui.file.exit" commandName="quitCommand"/>
+  <commands xmi:id="_LnnyoMuxEeKezbF-WZDe_g" elementId="com.automative.computer.solutions.shopprobe.open" commandName="openCommand"/>
+  <commands xmi:id="_Lnnyo8uxEeKezbF-WZDe_g" elementId="org.eclipse.ui.file.save" commandName="saveCommand"/>
+  <commands xmi:id="_LnnypsuxEeKezbF-WZDe_g" elementId="org.eclipse.ui.help.aboutAction" commandName="aboutCommand"/>
+  <addons xmi:id="_LnnyksuxEeKezbF-WZDe_g" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_Lnnyk8uxEeKezbF-WZDe_g" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_LnnylMuxEeKezbF-WZDe_g" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
+  <addons xmi:id="_LnnylcuxEeKezbF-WZDe_g" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_LnnylsuxEeKezbF-WZDe_g" elementId="org.eclipse.e4.ui.workbench.handler.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
+  <addons xmi:id="_Lnnyl8uxEeKezbF-WZDe_g" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_LnnymMuxEeKezbF-WZDe_g" elementId="org.eclipse.e4.ui.workbench.bindings.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.swt/org.eclipse.e4.ui.workbench.swt.util.BindingProcessingAddon"/>
+</application:Application>
