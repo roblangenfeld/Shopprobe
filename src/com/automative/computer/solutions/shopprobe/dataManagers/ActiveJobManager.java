@@ -12,7 +12,7 @@ public class ActiveJobManager {
 	private static ActiveJobManager instance;
 
 	protected ActiveJobManager() {
-
+		System.out.println();
 	}
 
 	public static ActiveJobManager getInstance() {
